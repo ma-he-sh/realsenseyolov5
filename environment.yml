@@ -1,0 +1,14 @@
+name: realsense
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - opencv
+  - pyrealsense2
+  - pandas
+  - pip
+  - pip:
+      - torch
+      - requests
+      - pillow
